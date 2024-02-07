@@ -246,7 +246,12 @@ h6 {
   background-position: right;
   
 }
-
+@media screen and (max-width:768px) {
+  #hero {
+    background-position: 69%;
+    
+  }
+}
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
